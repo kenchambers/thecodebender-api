@@ -1,5 +1,7 @@
+# NOTE: changed dev adapter from async to redis
 development:
-  adapter: async
+
+  adapter: redis
 
 test:
   adapter: async
